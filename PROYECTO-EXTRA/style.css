@@ -30,6 +30,7 @@ header{
 }
 .a-header{
     text-decoration: none;
+    color: rgb(138, 136, 136);
 }
 .a-header:hover{
     color: skyblue;
