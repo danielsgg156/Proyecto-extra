@@ -243,6 +243,7 @@ li {
     align-self: flex-start;
     transform: translate(-200px, -20px);
     color: lightgray;
+    font-family: 'Lato', sans-serif;
 }
 
 .navMedio nav button {
