@@ -1,0 +1,94 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+/* preguntar como realmente se podria hacer lo de ubicar */
+.navMedio {
+    
+    background: white;
+    top: 0;
+    border-bottom: lightgray 1px solid;
+    border-top: lightgray 1px solid;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    
+    
+}
+
+.navMedio nav ul li {
+    display: inline-block;
+    left: -100px;
+    padding: 20px;
+    align-self: flex-start;
+    transform: translate(-220px, -30px);
+    color: lightgray;
+}
+
+.navMedio nav button {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    float: right;
+    transform: translate(80px, 5px);   
+}
+button:hover {
+    background-color: #00acee;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom-color: grey 2px solid;
+}
+ 
+a:visited {
+    color: grey;
+    text-decoration: none;
+}
+
+/* problemas de que los a aparecen como si estuvieses visitados y no puedo cambair de color */
+
+.prueba {
+    height: 500px;
+    width: 100%;
+    background: url(https://www.cariverplate.com.ar/imagenes/contenidos/2015-04/128-foto-principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.imagen {
+    height: 200px;
+    width: 200px;
+    background-color: #00acee;
+    border-radius: 10px;
+    border: white 3px solid;
+    transform: translate(-70px, -80px);
+    
+}
+
+.imagen p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+    
+}
