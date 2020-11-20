@@ -37,15 +37,6 @@ li {
     color: lightgray;
 }
 
-.navMedio nav img {
-    border-radius: 10px;
-    border: white 3px solid;
-    float: left;
-    height: 200px;
-    width: 200px;
-    transform: translate(-70px, -80px);
-}
-
 .navMedio nav button {
     border: none;
     border-radius: 5px;
@@ -53,8 +44,13 @@ li {
     padding: 10px;
     text-align: center;
     float: right;
-    transform: translate(80px, 5px);
+    transform: translate(80px, 5px);   
 }
+button:hover {
+    background-color: #00acee;
+    color: white;
+}
+
 a {
     text-decoration: none;
 }
@@ -77,6 +73,22 @@ a:visited {
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
+}
 
+.imagen {
+    height: 200px;
+    width: 200px;
+    background-color: #00acee;
+    border-radius: 10px;
+    border: white 3px solid;
+    transform: translate(-70px, -80px);
+    
+}
+
+.imagen p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
     
 }
