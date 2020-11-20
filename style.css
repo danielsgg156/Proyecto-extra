@@ -2,6 +2,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+/* preguntar como realmente se podria hacer lo de ubicar */
 .navMedio {
     
     background: white;
@@ -64,5 +68,15 @@ a:visited {
     text-decoration: none;
 }
 
+/* problemas de que los a aparecen como si estuvieses visitados y no puedo cambair de color */
 
+.prueba {
+    height: 500px;
+    width: 100%;
+    background: url(https://www.cariverplate.com.ar/imagenes/contenidos/2015-04/128-foto-principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
 
+    
+}
