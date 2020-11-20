@@ -137,8 +137,9 @@ li {
     display: inline-block;
     padding: 20px;
     align-self: flex-start;
-    transform: translate(-200px, -20px);
+    transform: translate(-220px, -5px);
     color: lightgray;
+    font-family: 'Lato', sans-serif;
 }
 
 .navMedio nav button {
@@ -171,7 +172,7 @@ a:visited {
 /* problemas de que los a aparecen como si estuvieses visitados y no puedo cambair de color */
 
 
-.imagen {
+.imagen-coscu {
     height: 200px;
     width: 200px;
     background-color: #00acee;
