@@ -159,6 +159,7 @@ button:hover {
 }
 
 a {
+    color:  rgb(138, 136, 136);
     text-decoration: none;
 }
 
@@ -167,7 +168,7 @@ a:hover {
 }
  
 a:visited {
-    color: grey;
+   
     text-decoration: none;
 }
 
