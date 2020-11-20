@@ -136,11 +136,12 @@ li {
 
 .navMedio nav ul li {
     display: inline-block;
-    padding: 20px;
+    padding: 13px 0;
     align-self: flex-start;
     transform: translate(-220px, -5px);
     color: lightgray;
     font-family: 'Lato', sans-serif;
+    margin: 0 10px;
 }
 
 .navMedio nav button {
@@ -168,6 +169,10 @@ a:hover {
 a:visited {
     color: grey;
     text-decoration: none;
+}
+
+.joverli:hover {
+    border-bottom: grey 2px solid;
 }
 
 /* problemas de que los a aparecen como si estuvieses visitados y no puedo cambair de color */
