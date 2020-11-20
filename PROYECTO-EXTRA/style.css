@@ -2,13 +2,43 @@ body{
     margin: 0%;
     padding: 0%;
 }
-grid-template-rows: repeat(5, 100px);
-grid-column-gap: 100px; 
-grid-row-gap: 100px;
+div.tomas{
+    margin: 10px;
+    width: 255px;
+    height: 220px;
+    background-color: rgb(243, 252, 252);
+    
+}
+.enlace{
+    margin-top: 5px;
+}
+.link{
+    height: 20px;
+    width: 20px;
 }
 
-.container > div {
-background: red;
-height: 40px;
-width: 40px;
-}                                               
+.fotos{
+    margin-top: 3px;
+    height: 15px;
+    width: 15px;
+}
+.camara{
+    height: 25px;
+    width: 25px;
+}
+.galeria{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 166px;
+    width: 260px;
+ 
+}
+.fot1,.fot2,.fot3,.fot4,.fot5,.fot6{
+    border-radius: 7px;
+    margin: 1px;
+    height: 83px;
+    width: 83px;
+    background-color: rgb(50, 193, 241);
+}
