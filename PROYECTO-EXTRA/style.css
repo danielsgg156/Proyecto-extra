@@ -1,4 +1,14 @@
 body{
     margin: 0%;
     padding: 0%;
+}
+grid-template-rows: repeat(5, 100px);
+grid-column-gap: 100px; 
+grid-row-gap: 100px;
+}
+
+.container > div {
+background: red;
+height: 40px;
+width: 40px;
 }                                               
