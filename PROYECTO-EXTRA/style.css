@@ -104,20 +104,21 @@ header{
 .my-little-pony{
     width: 100%;
     height: 500px;
-    top: 0%;
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin: 0;
+    background: url(img/background-little-pony.jpg);
 }
 
 /* Guido */
 
 /* preguntar como realmente se podria hacer lo de ubicar */
 .navMedio {
-    
     background: white;
-    
     border-bottom: lightgray 1px solid;
     border-top: lightgray 1px solid;
     height: 50px;
+    
 }
 
 nav {
@@ -129,8 +130,7 @@ nav {
 }
 
 li {
-    list-style-type: none;
-    
+    list-style-type: none; 
 }
 
 .navMedio nav ul li {
